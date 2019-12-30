@@ -1,0 +1,28 @@
+{
+  "configurations" : [
+    {
+      "id" : "B66FB1A1-8B3B-46BE-95FB-CB02824AC7DC",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:HabitTracker.xcodeproj",
+      "identifier" : "098F0BA623BA8035003FC883",
+      "name" : "HabitTracker"
+    }
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:HabitTracker.xcodeproj",
+        "identifier" : "098F0BBC23BA8036003FC883",
+        "name" : "HabitTrackerTests"
+      }
+    }
+  ],
+  "version" : 1
+}
