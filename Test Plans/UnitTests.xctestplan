@@ -1,0 +1,38 @@
+{
+  "configurations" : [
+    {
+      "id" : "4AB74999-A306-4D52-8AEB-EAA707AF282C",
+      "name" : "Russian",
+      "options" : {
+        "language" : "ru",
+        "locationScenario" : {
+          "identifier" : "Moscow, Russia",
+          "referenceType" : "built-in"
+        },
+        "region" : "RU"
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : false,
+    "language" : "en",
+    "locationScenario" : {
+      "identifier" : "San Francisco, CA, USA",
+      "referenceType" : "built-in"
+    },
+    "region" : "US",
+    "testExecutionOrdering" : "random",
+    "uiTestingScreenshotsLifetime" : "keepNever",
+    "userAttachmentLifetime" : "keepNever"
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:HabitTracker.xcodeproj",
+        "identifier" : "098F0BBC23BA8036003FC883",
+        "name" : "HabitTrackerTests"
+      }
+    }
+  ],
+  "version" : 1
+}

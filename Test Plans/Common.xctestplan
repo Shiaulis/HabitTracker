@@ -1,0 +1,60 @@
+{
+  "configurations" : [
+    {
+      "id" : "B66FB1A1-8B3B-46BE-95FB-CB02824AC7DC",
+      "name" : "Russian Locale",
+      "options" : {
+        "language" : "ru",
+        "locationScenario" : {
+          "identifier" : "Moscow, Russia",
+          "referenceType" : "built-in"
+        },
+        "region" : "RU"
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : {
+      "targets" : [
+        {
+          "containerPath" : "container:HabitTracker.xcodeproj",
+          "identifier" : "098F0BA623BA8035003FC883",
+          "name" : "HabitTracker"
+        }
+      ]
+    },
+    "language" : "en",
+    "locationScenario" : {
+      "identifier" : "San Francisco, CA, USA",
+      "referenceType" : "built-in"
+    },
+    "region" : "US",
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:HabitTracker.xcodeproj",
+      "identifier" : "098F0BA623BA8035003FC883",
+      "name" : "HabitTracker"
+    },
+    "testExecutionOrdering" : "random",
+    "uiTestingScreenshotsLifetime" : "keepNever",
+    "userAttachmentLifetime" : "keepNever"
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:HabitTracker.xcodeproj",
+        "identifier" : "098F0BBC23BA8036003FC883",
+        "name" : "HabitTrackerTests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:HabitTracker.xcodeproj",
+        "identifier" : "0909628823BB6B2400428C2D",
+        "name" : "HabitTrackerUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
